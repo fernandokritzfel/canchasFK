@@ -1,0 +1,143 @@
+@import"body";
+@import "footer";
+@import "header";
+@import "colores";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: $colorvioleta;
+    font-size: 100px;
+    text-overflow: ellipsis;
+    
+}
+.contenedor{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .logo img{
+    width: 150px;
+}
+header .menu{
+    margin-top: 8rem;
+}
+header .menu a{
+    transition: all 0.5s ease;
+    font-size:0.9rem;
+    color: $colorblanco;
+    text-decoration: none;
+    background-color:$colorvioleta;
+    padding: 5px;
+    border-radius: 10px;
+}
+header .menu a:hover{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: $colorNegro;
+    border-radius: 10px;
+}
+main{
+    color: $colorblanco;
+    background-color: $colorVerde;
+    padding: 2rem;
+    width: 60%;
+    border: 0.2rem $colorNegro solid;
+    border-radius: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.main article .principal{
+    margin-bottom: 2rem;
+}
+.main article .principal img{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 40px 0px 0px 0px;
+    border: outset 0.2rem $colorVerde;
+}
+.main article h2{
+    margin: 2rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.main article p{
+    margin: 1rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+
+}
+aside{
+    margin-left: 2%;
+    width: 38%;
+    padding: 2rem;
+    border: solid 0.2rem $colorNegro;
+    border-radius: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom,rgb(20, 161, 32),rgb(0, 0, 0));
+}
+aside .aside{
+    vertical-align: top;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    color:$colorblanco;
+    padding: 1px 1px;
+}
+aside .aside img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 40px 0px;
+    border: outset 0.2rem $colorVerde;
+}
+@media screen and (max-width: 768px) {
+    header .menu a{
+        font-size: 0.9rem;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        margin-top: 2rem;
+        margin-left: 0.8rem;
+        width: 100%;
+    }
+    header .logo img{
+        width: 120px;
+    }
+    h1{
+        font-size: 80px;   
+    }
+}
+@media screen and (max-width: 480px) {
+    header .menu a{
+        font-size: 0.7rem;
+    }
+    header .logo img{
+        width: 100px;
+    }
+    h1{
+        font-size: 75px;
+    }
+}  

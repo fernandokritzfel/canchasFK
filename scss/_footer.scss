@@ -1,0 +1,23 @@
+
+@import "colores";
+footer{
+    margin: 2rem 0;
+    background-color: $colorblanco;
+    opacity: .7;
+    padding: 1rem;
+    width: 100%;
+    color:$colorNegro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .redesSociales a{
+    color: $colorGris;
+    margin-left: 1rem;
+    width: 2rem;
+}
+footer .redesSociales img{
+    width: 2.7rem;
+    opacity: .7;
+}

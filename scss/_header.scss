@@ -1,0 +1,33 @@
+
+@import "colores";
+
+header{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .header__logo{
+        img{
+            width: 150px;
+        }
+    }
+    .header__menu{
+        margin-top: 8rem;
+        a{
+            transition: all 0.5s ease;
+            font-size:0.9rem;
+            color:$colorblanco;
+            text-decoration: none;
+            background-color: $colorvioleta;
+            padding: 5px;
+            border-radius: 10px;
+            &:hover{
+                font-weight: bold;
+                font-size: 1.1rem;
+                background-color:$colorNegro;
+            }
+        }
+    }
+}

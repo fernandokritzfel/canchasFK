@@ -1,0 +1,99 @@
+@import"colores";
+@import"body";
+@import"header";
+@import"footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:$colorvioleta;
+    font-size: 100px;
+    text-overflow: ellipsis;
+    
+}
+.contenedor{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .logo img{
+    width: 150px;
+}
+header .menu{
+    margin-top: 8rem;
+}
+header .menu a{
+    transition: all 0.5s ease;
+    font-size:0.9rem;
+    color: white;
+    text-decoration: none;
+    background-color: $colorvioleta;
+    padding: 5px;
+    border-radius: 10px;
+}
+header .menu a:hover{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: $colorNegro;
+    border-radius: 10px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.imagen1{
+    width: 100%;
+    height: 60%;
+}
+.imagen2{
+    width: 100%;
+    height: 60%;
+}
+.imagen3{
+    width: 100%;
+    height: 60%;
+}
+.cantidadPersonas{
+    text-align: center;
+    color: white;
+}
+.caja2{
+    background-image: linear-gradient(to bottom,rgb(20, 161, 32),rgb(0, 0, 0));
+}
+.caja1{
+    color:white;
+    background-image: linear-gradient(to bottom,rgb(20, 161, 32),rgb(0, 0, 0));
+}
+.caja3{
+    color:white;
+    background-image: linear-gradient(to bottom,rgb(20, 161, 32),rgb(0, 0, 0));
+}
+.promo{
+    background-color: $colorRojo;
+    color: $colorblanco;
+}
+.colorBotones{
+    background: $colorVerdeClaro;
+    color: $colorblanco;
+}
+.divMargen{
+    padding: 1rem;
+}
+.colorTexto{
+    color: $colorNegro;
+}

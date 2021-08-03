@@ -1,0 +1,41 @@
+@import"colores";
+@import"body";
+@import"header";
+@import"footer";
+@mixin ancho (){
+    width: 90%;
+}
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contiene{
+    @include ancho();
+    height: 30rem;
+    padding: 2rem;
+    border-radius: 40px 0px;
+    border: solid $colorNegro 0.2rem;
+    background-image: linear-gradient(to bottom,rgb(20, 161, 32),rgb(0, 0, 0));
+    .contiene__formulario--div4--boton{
+        background-color:$colorvioleta;
+        color: $colorblanco;
+    }
+    &:hover{
+        background-color:$colorNegro; 
+    }
+}   
+.contiene2{
+    @include ancho();
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: $colorvioleta;
+    font-size: 100px;
+    text-overflow: ellipsis;
+    background-attachment: fixed;
+}

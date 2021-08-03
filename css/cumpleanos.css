@@ -1,0 +1,214 @@
+body {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Capriola', sans-serif;
+  background-color: cadetblue;
+  background-image: url("https://estaticos-cdn.sport.es/clip/38b0d8e9-8e30-46ad-80fb-91325118a3e1_media-libre-aspect-ratio_default_0.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__logo img {
+  width: 150px;
+}
+
+header .header__menu {
+  margin-top: 8rem;
+}
+
+header .header__menu a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  background-color: #2448e9;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+header .header__menu a:hover {
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: black;
+}
+
+footer {
+  margin: 2rem 0;
+  background-color: white;
+  opacity: .7;
+  padding: 1rem;
+  width: 100%;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .redesSociales a {
+  color: slategray;
+  margin-left: 1rem;
+  width: 2rem;
+}
+
+footer .redesSociales img {
+  width: 2.7rem;
+  opacity: .7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: #2448e9;
+  font-size: 100px;
+  text-overflow: ellipsis;
+}
+
+.contenedor {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo img {
+  width: 150px;
+}
+
+header .menu {
+  margin-top: 8rem;
+}
+
+header .menu a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  background-color: #2448e9;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+header .menu a:hover {
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.imagen1 {
+  width: 100%;
+  height: 60%;
+}
+
+.imagen2 {
+  width: 100%;
+  height: 60%;
+}
+
+.imagen3 {
+  width: 100%;
+  height: 60%;
+}
+
+.cantidadPersonas {
+  text-align: center;
+  color: white;
+}
+
+.caja2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#14a120), to(black));
+  background-image: linear-gradient(to bottom, #14a120, black);
+}
+
+.caja1 {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#14a120), to(black));
+  background-image: linear-gradient(to bottom, #14a120, black);
+}
+
+.caja3 {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#14a120), to(black));
+  background-image: linear-gradient(to bottom, #14a120, black);
+}
+
+.promo {
+  background-color: #fc0133;
+  color: white;
+}
+
+.colorBotones {
+  background: #389b0a;
+  color: white;
+}
+
+.divMargen {
+  padding: 1rem;
+}
+
+.colorTexto {
+  color: black;
+}

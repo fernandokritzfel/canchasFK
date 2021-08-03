@@ -1,0 +1,104 @@
+@import"body";
+@import "footer";
+@import "header";
+@import "colores";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:$colorvioleta;
+    font-size: 100px;
+    
+}
+.contenedor{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main{
+    background-color: darkgreen;
+    padding: 2rem;
+    width: 100%;
+    border: 0.2rem $colorNegro solid;
+    border-radius: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+        .imagenes{
+            width: 50%;
+            height: max-content;
+        }
+    
+}
+.fotoUno{
+    display: inline-block;
+    width: 95%;
+    margin: 0.5rem;
+    padding: auto;
+    border-radius: 40px 0px 0px 0px;
+    border: outset 0.2rem $colorblanco;
+    opacity: 0.82;
+    transition: all 0.8s ease;
+}
+.fotoUno:hover{
+    transform: scale(1.05,1.05);
+    opacity: 1;
+}
+.fotoDos{
+    display: inline-block;
+    width: 95%;
+    margin: 0.5rem;
+    padding: auto;
+    border: outset 0.2rem $colorblanco;
+    opacity: 0.82;
+    transition: all 0.8s ease;
+}
+.fotoDos:hover{
+    transform: scale(1.05,1.05);
+    opacity: 1;
+}
+.fotoTres{
+    margin-top: 1rem;
+    width: 100%;
+    padding: auto;
+    border-radius: 0px 0px 40px 0px;
+    border: outset 0.2rem $colorblanco;
+    opacity: 0.82;
+    transition: all 0.8s ease;
+}
+.fotoTres:hover{
+    transform: scale(1.05,1.05);
+    opacity: 1;
+}
+footer{
+    margin: 2rem 0;
+    background-color: $colorblanco;
+    opacity: .7;
+    padding: 1rem;
+    width: 100%;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .redesSociales a{
+    color: $colorGris;
+    margin-left: 1rem;
+    width: 2rem;
+}
+footer .redesSociales img{
+    width: 2.7rem;
+    opacity: .7;
+}
+@media screen and (max-width: 480px) {
+    header .menu a{
+        font-size: 0.7rem;
+    }
+}    
