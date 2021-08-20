@@ -15,42 +15,15 @@ h1{
     text-overflow: ellipsis;
     
 }
+main{
+    margin-top: 1.5rem;
+}
 .contenedor{
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-header{
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-header .logo img{
-    width: 150px;
-}
-header .menu{
-    margin-top: 8rem;
-}
-header .menu a{
-    transition: all 0.5s ease;
-    font-size:0.9rem;
-    color: white;
-    text-decoration: none;
-    background-color: $colorvioleta;
-    padding: 5px;
-    border-radius: 10px;
-}
-header .menu a:hover{
-    font-weight: bold;
-    font-size: 1.1rem;
-    background-color: $colorNegro;
-    border-radius: 10px;
 }
 .subtitulo{
     text-align: center;

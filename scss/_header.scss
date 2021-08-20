@@ -8,6 +8,10 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-image: url(../imagenes/cancha1.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-attachment: fixed;
     .header__logo{
         img{
             width: 150px;

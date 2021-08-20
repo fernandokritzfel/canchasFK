@@ -2,10 +2,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   font-family: 'Capriola', sans-serif;
-  background-color: cadetblue;
-  background-image: url("https://estaticos-cdn.sport.es/clip/38b0d8e9-8e30-46ad-80fb-91325118a3e1_media-libre-aspect-ratio_default_0.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: black;
 }
 
 header {
@@ -23,6 +20,10 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-image: url(../imagenes/cancha1.jpg);
+  border-radius: 20px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header .header__logo img {
@@ -96,6 +97,10 @@ h1 {
   text-overflow: ellipsis;
 }
 
+main {
+  margin-top: 1.5rem;
+}
+
 .contenedor {
   margin: 0 auto;
   width: 100%;
@@ -108,49 +113,6 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-header {
-  width: 100%;
-  padding: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-header .logo img {
-  width: 150px;
-}
-
-header .menu {
-  margin-top: 8rem;
-}
-
-header .menu a {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  font-size: 0.9rem;
-  color: white;
-  text-decoration: none;
-  background-color: #2448e9;
-  padding: 5px;
-  border-radius: 10px;
-}
-
-header .menu a:hover {
-  font-weight: bold;
-  font-size: 1.1rem;
-  background-color: black;
-  border-radius: 10px;
 }
 
 .subtitulo {

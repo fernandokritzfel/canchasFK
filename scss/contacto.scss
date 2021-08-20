@@ -12,6 +12,7 @@
 }
 
 .contiene{
+    margin-top: 1.5rem;
     @include ancho();
     height: 30rem;
     padding: 2rem;
