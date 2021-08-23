@@ -79,7 +79,6 @@ header .header__menu a {
 
 header .header__menu a:hover {
   font-weight: bold;
-  font-size: 1.1rem;
   background-color: black;
 }
 
