@@ -19,6 +19,11 @@ main{
     margin-top: 1.5rem;
     margin-left: 5%;
     width: 90%;
+    a{
+        color: $colorNegro;
+        text-decoration: none;
+        background: $colorVerdeClaro;
+    }
 }
 .contenedor{
     margin: 0 auto;
@@ -66,5 +71,5 @@ main{
 }
 .cuerpoAcordeon{
     color: black;
-    background: blue;
+    background:$colorVerdeFondo;
 }
