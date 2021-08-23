@@ -52,7 +52,7 @@ header .header__menu a:hover {
 }
 
 footer {
-  margin: 2rem 0;
+  margin: 0 0;
   background-color: white;
   opacity: .7;
   padding: 1rem;
@@ -84,7 +84,7 @@ footer .redesSociales img {
 }
 
 * {
-  margin: auto;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -92,6 +92,7 @@ footer .redesSociales img {
 
 .contiene {
   margin-top: 1.5rem;
+  margin-left: 5%;
   width: 90%;
   height: 30rem;
   padding: 2rem;
@@ -113,6 +114,7 @@ footer .redesSociales img {
 .contiene2 {
   width: 90%;
   padding: 20px;
+  margin-left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

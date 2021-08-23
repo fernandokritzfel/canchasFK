@@ -79,27 +79,6 @@ table{
         border:solid 3px $colorblanco;
     }
 }
-footer{
-    margin: 2rem 0;
-    background-color: $colorblanco;
-    opacity: .7;
-    padding: 1rem;
-    width: 100%;
-    color:black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-footer .redesSociales a{
-    color: slategray;
-    margin-left: 1rem;
-    width: 2rem;
-}
-footer .redesSociales img{
-    width: 2.7rem;
-    opacity: .7;
-}
 @media screen and (max-width: 768px) {
     header .menu a{
         font-size: 0.9rem;

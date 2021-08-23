@@ -6,13 +6,14 @@
     width: 90%;
 }
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .contiene{
     margin-top: 1.5rem;
+    margin-left: 5%;
     @include ancho();
     height: 30rem;
     padding: 2rem;
@@ -30,6 +31,7 @@
 .contiene2{
     @include ancho();
     padding: 20px;
+    margin-left: 5%;
     display: flex;
     align-items: center;
 }

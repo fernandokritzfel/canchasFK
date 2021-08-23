@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-  margin: 2rem 0;
+  margin: 0 0;
   background-color: white;
   opacity: .7;
   padding: 1rem;
@@ -191,38 +191,6 @@ table tr th {
 
 table td {
   border: solid 3px white;
-}
-
-footer {
-  margin: 2rem 0;
-  background-color: white;
-  opacity: .7;
-  padding: 1rem;
-  width: 100%;
-  color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-footer .redesSociales a {
-  color: slategray;
-  margin-left: 1rem;
-  width: 2rem;
-}
-
-footer .redesSociales img {
-  width: 2.7rem;
-  opacity: .7;
 }
 
 @media screen and (max-width: 768px) {

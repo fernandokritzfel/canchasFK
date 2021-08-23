@@ -29,15 +29,7 @@ main{
     text-align: center;
     font-size: 2.5rem;
 }
-.imagen1{
-    width: 100%;
-    height: 60%;
-}
-.imagen2{
-    width: 100%;
-    height: 60%;
-}
-.imagen3{
+.imagen1,.imagen2,.imagen3{
     width: 100%;
     height: 60%;
 }
@@ -69,4 +61,8 @@ main{
 }
 .colorTexto{
     color: $colorNegro;
+}
+.cuerpoAcordeon{
+    color: black;
+    background: blue;
 }
